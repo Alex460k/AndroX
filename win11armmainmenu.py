@@ -12,12 +12,12 @@ def download_file(file_url, destination):
         urllib.request.urlretrieve(file_url, destination)
 
 file_urls = [
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py",
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11ntv.py",
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11ntv.py",
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11ntv.py",
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11arm.py",
-    "https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11arm.py"
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11ntv.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11ntv.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11ntv.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11arm.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11arm.py>"
 ]
 
 destinations = [
