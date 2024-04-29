@@ -61,23 +61,23 @@ def main_menu():
             main_menu()
         elif choice == "1":
             print("\033[94mDownloading Windows 11 ARM XFCE4...")
-            os.system("megadl https://mega.nz/file/rNsE1LoS#-S5kveu3wVUew8AGVCnUc-KudmbbkZP427CgU1S_zCA -p /data/data/com.termux/files/home/")
+            os.system("wget -P /data/data/com.termux/files/home/ https://mega.nz/file/rNsE1LoS#-S5kveu3wVUew8AGVCnUc-KudmbbkZP427CgU1S_zCA")
             print("Succesfully Downloaded Windows 11 ARM XFCE4!")
+            os.system("clear")
             print("\033[94mInstalling Windows 11 ARM XFCE4...")
-            if os.path.exists("wget /data/data/com.termux/files/usr/win11arm/installwin11arm.py"):
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
-            else:
-                os.system("wget https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py -O /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
+            os.system("tar -xvzf win11ntv.tar.gz")
+            os.system("wget -P /data/data/com.termux/files/usr/win11arm/installwin11arm.py https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py")
+            os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
+            os.system("python /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
             print("Succesfully Installed Windows 11 ARM XFCE4!")
             main_menu()
         elif choice == "2":
             print("\033[94mDownloading Windows 11 ARM Native...")
-            os.system("megadl https://mega.nz/file/CJU1BKIC#Pz_Q70codt7zHVuiKpIebHqor02l966bN1HVmGsSeMk -p /data/data/com.termux/files/home/")
+            os.system("wget -P /data/data/com.termux/files/home/ https://mega.nz/file/CJU1BKIC#Pz_Q70codt7zHVuiKpIebHqor02l966bN1HVmGsSeMk")
+            print("Succesfully Downloaded Windows 11 ARM XFCE4!")
+            os.system("clear")
             print("\033[94mInstalling Windows 11 ARM Native...")
-            os.system("tar -xvzf backup.tar.gz")
+            os.system("tar -xvzf win11ntv.tar.gz")
             print("Succesfully Installed Windows 11 ARM Native!")
             print("Exiting...")
             time.sleep(2)
@@ -92,9 +92,8 @@ def main_menu():
             main_menu()
         elif choice == "1":
             print("\033[94mUninstalling Windows 11 ARM XFCE4")
-            if os.path.exists("wget /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py"):
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py")
+            if os.path.exists("python /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py"):
+                1 == 1
             else:
                 os.system("wget https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11arm.py -O /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py")
                 os.system("chmod +x /data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py")
@@ -103,9 +102,8 @@ def main_menu():
             main_menu()
         elif choice == "2":
             print("\033[94mUninstalling Windows 11 ARM Native...")
-            if os.path.exists("wget /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py"):
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
+            if os.path.exists("python /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py"):
+                1 == 1
             else:
                 os.system("wget https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11ntv.py -O /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
                 os.system("chmod +x /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
@@ -122,9 +120,8 @@ def main_menu():
             main_menu()
         elif choice == "1":
             print("\033[94mStarting Windows 11 ARM XFCE4...")
-            if os.path.exists("wget /data/data/com.termux/files/usr/win11arm/startwin11arm.py"):
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/startwin11arm.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/startwin11arm.py")
+            if os.path.exists("python /data/data/com.termux/files/usr/win11arm/startwin11arm.py"):
+                1 == 1
             else:
                 os.system("wget https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11arm.py -O /data/data/com.termux/files/usr/win11arm/startwin11arm.py")
                 os.system("chmod +x /data/data/com.termux/files/usr/win11arm/startwin11arm.py")
@@ -136,9 +133,8 @@ def main_menu():
                         main_menu()
         elif choice == "2":
             print("\033[94mStarting Windows 11 ARM Native...")
-            if os.path.exists("wget /data/data/com.termux/files/usr/win11arm/startwin11ntv.py"):
-                os.system("chmod +x /data/data/com.termux/files/usr/win11arm/startwin11ntv.py")
-                os.system("python /data/data/com.termux/files/usr/win11arm/startwin11ntv.py")
+            if os.path.exists("python /data/data/com.termux/files/usr/win11arm/startwin11ntv.py"):
+                1 == 1
             else:
                 os.system("wget https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11ntv.py -O /data/data/com.termux/files/usr/win11arm/startwin11ntv.py")
                 os.system("chmod +x /data/data/com.termux/files/usr/win11arm/startwin11ntv.py")
