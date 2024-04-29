@@ -10,8 +10,6 @@ def required_packages():
     print("[+] All necessary packages are installed. You can now run the script")
     os.system("wget -P /data/data/com.termux/files/usr/win11arm/ https://raw.githubusercontent.com/Alex460k/Windows-11-ARM/main/win11armmainmenu.py && cd /data/data/com.termux/files/usr/win11arm/Windows-11-ARM && mv /data/data/com.termux/files/usr/win11arm/Windows-11-ARM/win11armmainmenu.py /data/data/com.termux/files/usr/win11arm/")
     os.system("chmod +x /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
-    os.system("wget -P /data/data/com.termux/files/usr/bin/ https://github.com/Alex460k/Windows-11-ARM/blob/main/win11arm && cd /data/data/com.termux/files/usr/win11arm/Windows-11-ARM && mv /data/data/com.termux/files/usr/win11arm/Windows-11-ARM/win11arm /data/data/com.termux/files/usr/bin/")
-    os.system("chmod +x /data/data/com.termux/files/usr/bin/win11arm")
-    print("Type 'win11arm' in termux to start the script. ENJOY!")
+    print("ENJOY!")
 if __name__ == '__main__':
     required_packages()
