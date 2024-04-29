@@ -1,6 +1,6 @@
 import os
+import requests
 import time
-import urllib.request
 
 def create_directory(path):
     if not os.path.exists(path):
@@ -8,8 +8,15 @@ def create_directory(path):
 
 def download_file(file_url, destination):
     create_directory(os.path.dirname(destination))
-    if not os.path.exists(destination):
-        urllib.request.urlretrieve(file_url, destination)
+    try:
+        response = requests.get(file_url, stream=True)
+        response.raise_for_status()
+
+        with open(destination, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to download {file_url}: {e}")
 
 file_urls = [
     "<https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py>",
@@ -60,27 +67,24 @@ def main_menu():
             print("Incorrect or empty option!")
             main_menu()
         elif choice == "1":
-            print("\033[94mDownloading Windows 11 ARM XFCE4...")
+            print("\033[94mDownloading & Installing Windows 11 ARM XFCE4...")
             os.system("wget -P /data/data/com.termux/files/home/ https://mega.nz/file/rNsE1LoS#-S5kveu3wVUew8AGVCnUc-KudmbbkZP427CgU1S_zCA")
             print("Succesfully Downloaded Windows 11 ARM XFCE4!")
-            os.system("clear")
-            print("\033[94mInstalling Windows 11 ARM XFCE4...")
-            os.system("tar -xvzf win11ntv.tar.gz")
+            os.system("tar -xvzf /data/data/com.termux/files/home/win11ntv.tar.gz")
             os.system("wget -P /data/data/com.termux/files/usr/win11arm/installwin11arm.py https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py")
             os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
             os.system("python /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
             print("Succesfully Installed Windows 11 ARM XFCE4!")
+            time.sleep(3)
             main_menu()
         elif choice == "2":
-            print("\033[94mDownloading Windows 11 ARM Native...")
+            print("\033[94mDownloading & Installing Windows 11 ARM Native...")
             os.system("wget -P /data/data/com.termux/files/home/ https://mega.nz/file/CJU1BKIC#Pz_Q70codt7zHVuiKpIebHqor02l966bN1HVmGsSeMk")
-            print("Succesfully Downloaded Windows 11 ARM XFCE4!")
-            os.system("clear")
             print("\033[94mInstalling Windows 11 ARM Native...")
             os.system("tar -xvzf win11ntv.tar.gz")
             print("Succesfully Installed Windows 11 ARM Native!")
             print("Exiting...")
-            time.sleep(2)
+            time.sleep(3)
             os.system("exit")
     elif choice == "2":
         print("1. Uninstall Windows 11 ARM XFCE4")
