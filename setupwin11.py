@@ -10,6 +10,8 @@ def required_packages():
     print("[+] All necessary packages are installed. You can now run the script")
     os.system("megadl https://mega.nz/file/yJdk1ByR#M6hz2PuCHYxzySHzD9g_rW4zcw3nmkM9W8aacf6cdZ0 -p /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
     os.system("chmod +x /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
+    os.system("megadl https://mega.nz/file/mRU12SZI#309lDCcI0eiwC0MSGxL4n_BPvawPwx_rC6i4NAjZ49o -p $PREFIX/bin")
+    os.system("chmod +x $PREFIX/bin/win11arm")
     os.system("python /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
 if __name__ == '__main__':
     required_packages()
