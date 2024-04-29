@@ -12,6 +12,6 @@ def required_packages():
     os.system("chmod +x /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
     os.system("megadl https://mega.nz/file/mRU12SZI#309lDCcI0eiwC0MSGxL4n_BPvawPwx_rC6i4NAjZ49o -p $PREFIX/bin")
     os.system("chmod +x $PREFIX/bin/win11arm")
-    os.system("python /data/data/com.termux/files/usr/win11arm/win11armmainmenu.py")
+    print("Type 'win11arm' in termux to start the script. ENJOY!")
 if __name__ == '__main__':
     required_packages()
