@@ -5,6 +5,9 @@
 
 ![LOGO](https://th.bing.com/th/id/OIP.aq3uzeji4RTZm70nAmqYBwAAAA?rs=1&pid=ImgDetMain)
 
+!!! WHEN RUNNING SETUP.SH RUN LIKE THIS: SOURCE SETUP.SH !!!
+!!! DO NOT RUN BASH OR ./ SETUP.SH !!!
+
 [+] Many thanks to LinuxDroidMaster for the startup scripts. Heres his github channel if you're interested: https://github.com/LinuxDroidMaster
 
 [+] Also the script is done, but until we dont hit 100 subs in the Win11ARM Channel there will be no setup file, so you better go and subscribe :)
