@@ -1,4 +1,5 @@
 import os
+import time
 def required_packages():
     os.system("clear")
     print("[+] Checking if necessary packages are installed...")
