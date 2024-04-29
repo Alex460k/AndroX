@@ -84,7 +84,7 @@ def main_menu():
             os.system("exit")
     elif choice == "2":
         print("1. Uninstall Windows 11 ARM XFCE4")
-        print("2. Uninstall Windows 11 ARM KDE")
+        print("2. Uninstall Windows 11 ARM Native")
         print("Enter your choice: ", end="")
         choice = input()
         if choice != "1" and choice != "2":
@@ -109,7 +109,7 @@ def main_menu():
                 os.system("chmod +x /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
                 os.system("python /data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py")
             print("Succesfully Uninstalled Windows 11 ARM Native!")
-            main_menu()
+            
     elif choice == "3":
         print("1. Start Windows 11 ARM XFCE4")
         print("2. Start Windows 11 ARM Native")
