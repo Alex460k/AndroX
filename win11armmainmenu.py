@@ -72,8 +72,8 @@ def main_menu():
             main_menu()
         elif choice == "1":
             print("\033[94mInstalling Windows 11 ARM XFCE4...")
-            os.system("cd")
             os.system("mkdir kali-arm64")
+            os.system("cd")
             os.system("cd storage/downloads")
             os.system("mv win11arm.tar.gz /data/data/com.termux/files/home/kali-arm64")
             os.system("cd")
