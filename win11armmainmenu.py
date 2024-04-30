@@ -68,7 +68,7 @@ def main_menu():
             main_menu()
         elif choice == "1":
             print("\033[94mInstalling Windows 11 ARM XFCE4...")
-            os.system("tar -xvzf /data/data/com.termux/files/home/win11ntv.tar.gz")
+            os.system("cd ; tar -xvzf /data/data/com.termux/files/home/win11arm.tar.gz")
             os.system("wget -P /data/data/com.termux/files/usr/win11arm/installwin11arm.py https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py")
             os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
             os.system("python /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
@@ -77,11 +77,13 @@ def main_menu():
             main_menu()
         elif choice == "2":
             print("\033[94mInstalling Windows 11 ARM Native...")
-            os.system("tar -xvzf win11ntv.tar.gz")
+            os.system("cd ; tar -xvzf /data/data/com.termux/files/home/win11ntv.tar.gz")
+            os.system("wget -P /data/data/com.termux/files/usr/win11arm/installwin11ntv.py https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11ntv.py")
+            os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11ntv.py")
+            os.system("python /data/data/com.termux/files/usr/win11arm/installwin11ntv.py")
             print("Succesfully Installed Windows 11 ARM Native!")
-            print("Exiting...")
             time.sleep(3)
-            os.system("exit")
+            main_menu()
     elif choice == "2":
         print("1. Uninstall Windows 11 ARM XFCE4")
         print("2. Uninstall Windows 11 ARM Native")
