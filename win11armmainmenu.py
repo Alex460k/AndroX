@@ -24,16 +24,20 @@ file_urls = [
     "<https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11ntv.py>",
     "<https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11ntv.py>",
     "<https://github.com/Alex460k/Windows-11-ARM/blob/main/startwin11arm.py>",
-    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11arm.py>"
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/uninstallwin11arm.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/win11armmainmenu.py>",
+    "<https://github.com/Alex460k/Windows-11-ARM/blob/main/start.sh>"
 ]
 
 destinations = [
-    "/data/data/com.termux/files/usr/win11arm/installwin11arm.py",
-    "/data/data/com.termux/files/usr/win11arm/installwin11ntv.py",
-    "/data/data/com.termux/files/usr/win11arm/uninstallwin11ntv.py",
-    "/data/data/com.termux/files/usr/win11arm/startwin11ntv.py",
-    "/data/data/com.termux/files/usr/win11arm/uninstallwin11arm.py",
-    "/data/data/com.termux/files/usr/win11arm/startwin11arm.py"
+    "/data/data/com.termux/files/home/win11arm/win11armmainmenu.py",
+    "/data/data/com.termux/files/home/win11arm/start.sh",
+    "/data/data/com.termux/files/home/win11arm/installwin11arm.py",
+    "/data/data/com.termux/files/home/win11arm/installwin11ntv.py",
+    "/data/data/com.termux/files/home/win11arm/uninstallwin11ntv.py",
+    "/data/data/com.termux/files/home/win11arm/startwin11ntv.py",
+    "/data/data/com.termux/files/home/win11arm/uninstallwin11arm.py",
+    "/data/data/com.termux/files/home/win11arm/startwin11arm.py"
 ]
 
 for i in range(len(file_urls)):
