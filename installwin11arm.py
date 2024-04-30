@@ -1,6 +1,5 @@
 import os
 import time
-
 def linux():
     os.system("clear")
     print("Installing Linux, please wait...")
@@ -10,6 +9,5 @@ def linux():
     time.sleep(2)
     os.system("termux-setup-storage ; pkg install wget ; wget -O install-nethunter-termux https://offs.ec/2MceZWr ; chmod +x install-nethunter-termux ; ./install-nethunter-termux")
     print("Installation Succesfully, now you can start Windows 11 ARM XFCE4!")
-
 if __name__ == '__main__':
     linux()
