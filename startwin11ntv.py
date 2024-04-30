@@ -1,8 +1,8 @@
-import subprocess
+import os
 
-if not os.path.exists("/data/data/com.termux/files/home/startxfce4_termux.sh"):
-    subprocess.run(["wget", "https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/startxfce4_termux.sh"], shell=True)
-    subprocess.run(["chmod", "+x", "startxfce4_termux.sh"], shell=True)
-    subprocess.run(["./startxfce4_termux.sh"], shell=True)
+if not os.path.exists("bash /data/data/com.termux/files/home/startxfce4_termux.sh"):
+    os.system("wget https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/scripts/termux_native/startxfce4_termux.sh")
+    os.system("chmod +x startxfce4_termux.sh")
+    os.system("./startxfce4_termux.sh")
 else:
-    subprocess.run(["./startxfce4_termux.sh"], shell=True)
+    os.system("./startxfce4_termux.sh")
