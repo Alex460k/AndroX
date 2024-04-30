@@ -67,11 +67,7 @@ def main_menu():
             print("Incorrect or empty option!")
             main_menu()
         elif choice == "1":
-            print("\033[94mDownloading & Installing Windows 11 ARM XFCE4...")
-            url = "https://mega.nz/file/rNsE1LoS#-S5kveu3wVUew8AGVCnUc-KudmbbkZP427CgU1S_zCA"
-            directory = "/data/data/com.termux/files/home/"
-            os.system("wget -P {directory} {url}")
-            print("Succesfully Downloaded Windows 11 ARM XFCE4!")
+            print("\033[94mInstalling Windows 11 ARM XFCE4...")
             os.system("tar -xvzf /data/data/com.termux/files/home/win11ntv.tar.gz")
             os.system("wget -P /data/data/com.termux/files/usr/win11arm/installwin11arm.py https://github.com/Alex460k/Windows-11-ARM/blob/main/installwin11arm.py")
             os.system("chmod +x /data/data/com.termux/files/usr/win11arm/installwin11arm.py")
@@ -80,11 +76,6 @@ def main_menu():
             time.sleep(3)
             main_menu()
         elif choice == "2":
-            print("\033[94mDownloading & Installing Windows 11 ARM Native...")
-            url = "https://mega.nz/file/CJU1BKIC#Pz_Q70codt7zHVuiKpIebHqor02l966bN1HVmGsSeMk"
-            directory = "/data/data/com.termux/files/home/"
-            os.system("wget -P {directory} {url}")
-            os.system("wget -P /data/data/com.termux/files/home/ ")
             print("\033[94mInstalling Windows 11 ARM Native...")
             os.system("tar -xvzf win11ntv.tar.gz")
             print("Succesfully Installed Windows 11 ARM Native!")
