@@ -83,7 +83,7 @@ def main_menu():
             os.system("wget -P /data/data/com.termux/files/home/Windows-11-ARM/installwin11ntv.py https://raw.githubusercontent.com/Alex460k/Windows-11-ARM/main/installwin11ntv.py")
             os.system("chmod +x /data/data/com.termux/files/home/Windows-11-ARM/installwin11ntv.py")
             os.system("python /data/data/com.termux/files/home/Windows-11-ARM/installwin11ntv.py")
-            os.system("wget -P /data/data/com.termux/files/home/Windows-11-ARM/setupwin11ntv.py https://raw.githubusercontent.com/Alex460k/Windows-11-ARM/mainsetupwin11ntv.py")
+            os.system("wget -P /data/data/com.termux/files/home/Windows-11-ARM/setupwin11ntv.py https://raw.githubusercontent.com/Alex460k/Windows-11-ARM/setupwin11ntv.py")
             os.system("chmod +x /data/data/com.termux/files/home/Windows-11-ARM/setupwin11ntv.py")
             os.system("python /data/data/com.termux/files/home/Windows-11-ARM/setupwin11ntv.py")
             print("Succesfully Installed Windows 11 ARM Native!")
