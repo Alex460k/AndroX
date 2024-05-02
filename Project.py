@@ -52,22 +52,19 @@ def main_menu():
         print("3. Update")
         print("4. Start")
         print("5. Exit")
-        choice = input("Enter your choice: ")
-        if choice == "1":
+        choice = int(input("Enter your choice: "))
+        if choice == 1:
             install()
             mobox()
             icon()
-        elif choice == "2":
+        elif choice == 2:
             uninstall()
-        elif choice == "3":
+        elif choice == 3:
             update()
-        elif choice == "4":
+        elif choice == 4:
             start()
-            while True:
-                user_input = input(":")
-                if user_input == "exit":
-                    break
-        elif choice == "5":
+            time.sleep(5)
+        elif choice == 5:
             exit()
         else:
             print("Invalid choice, try again.")
