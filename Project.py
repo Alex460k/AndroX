@@ -42,31 +42,38 @@ def mobox():
     os.system("wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/mobox_run.sh")
     os.system("chmod +x mobox_run.sh")
     os.system("chmod +x startxfce4_termux.sh")
-
+    
 def main_menu():
-    while True:
-        print("Windows 11 Home")
-        print("===============")
-        print("1. Install")
-        print("2. Uninstall")
-        print("3. Update")
-        print("4. Start")
-        print("5. Exit")
-        choice = int(input("Enter your choice: "))
-        if choice == 1:
-            install()
-            mobox()
-            icon()
-        elif choice == 2:
-            uninstall()
-        elif choice == 3:
-            update()
-        elif choice == 4:
-            start()
-            time.sleep(5)
-        elif choice == 5:
-            exit()
-        else:
-            print("Invalid choice, try again.")
+    print("Windows 11 Home")
+    print("===============")
+    print("1. Install")
+    print("2. Uninstall")
+    print("3. Update")
+    print("4. Start")
+    print("5. Exit")
+    print("Enter your choice: ", end="")
+    choice = input()
+    if choice != "1" and choice != "2" and choice != "3" and choice != "4" and choice != "5":
+        print("Incorrect or empty option!")
+        main_menu()
+    if choice == "1":
+        install()
+        mobox()
+        icon()
+        main_menu()
+    if choice == "2":
+        uninstall()
+        main_menu()
+    if choice == "3":
+        update()
+        main_menu()
+    if choice == "4":
+        start()
+        while True:
+            user_input = input(":")
+            if user_input == "exit":
+                main_menu()
+    if choice == "5":
+        exit()
 if __name__ == '__main__':
     main_menu()
