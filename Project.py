@@ -44,36 +44,32 @@ def mobox():
     os.system("chmod +x startxfce4_termux.sh")
 
 def main_menu():
-    print("Windows 11 Home")
-    print("===============")
-    print("1. Install")
-    print("2. Uninstall")
-    print("3. Update")
-    print("4. Start")
-    print("5. Exit")
-    choice1="1"
-    choice2="2"
-    choice3="3"
-    choice4="4"
-    choice5="5"
-    if choice1:
-        install()
-        mobox()
-        icon()
-        main_menu()
-    if choice2:
-        uninstall()
-        main_menu()
-    if choice3:
-        update()
-        main_menu()
-    if choice4:
-        start()
-        while True:
-            user_input = input(":")
-            if user_input == "exit":
-                main_menu()
-    if choice5:
-        exit()
+    while True:
+        print("Windows 11 Home")
+        print("===============")
+        print("1. Install")
+        print("2. Uninstall")
+        print("3. Update")
+        print("4. Start")
+        print("5. Exit")
+        choice = input("Enter your choice: ")
+        if choice == "1":
+            install()
+            mobox()
+            icon()
+        elif choice == "2":
+            uninstall()
+        elif choice == "3":
+            update()
+        elif choice == "4":
+            start()
+            while True:
+                user_input = input(":")
+                if user_input == "exit":
+                    break
+        elif choice == "5":
+            exit()
+        else:
+            print("Invalid choice, try again.")
 if __name__ == '__main__':
     main_menu()
