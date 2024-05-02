@@ -14,14 +14,16 @@ def install():
 
 def icon():
     os.system("git clone https://github.com/yeyushengfan258/Win11-icon-theme")
-    os.system("cd Win11-icon-theme")
+    os.system("cd /data/data/com.termux/files/home/Project/Win11-icon-theme")
     os.system("./install.sh")
     os.system("cd")
+    os.system("clear")
 
 def update():
     print("[+] Updating")
     os.system("pkg update")
     os.system("apt update -y")
+    os.system("clear")
 
 def uninstall():
     os.system("clear")
@@ -29,6 +31,7 @@ def uninstall():
     os.system("pkg remove xfce4 xfce4-goodies chromium code-oss")
     os.system("pkg update")
     os.system("apt autoremove")
+    os.system("clear")
     time.sleep(2)
 
 def exit():
@@ -44,8 +47,13 @@ def mobox():
     os.system("chmod +x startxfce4_termux.sh")
     
 def main_menu():
-    print("Windows 11 Home")
-    print("===============")
+    print("██╗    ██╗ ██╗ ███╗   ██╗  ██╗ ██╗")
+    print("██║    ██║ ██║ ████╗  ██║ ███║███║")
+    print("██║ █╗ ██║ ██║ ██╔██╗ ██║ ╚██║╚██║")
+    print("██║███╗██║ ██║ ██║╚██╗██║  ██║ ██║")
+    print("╚███╔███╔╝ ██║ ██║ ╚████║  ██║ ██║")
+    print("╚══╝╚══╝ ╚ ═╝╚ ═╝  ╚═══╝  ╚═╝ ╚═╝ ")                                                                                                 
+    print("==================================")
     print("1. Install")
     print("2. Uninstall")
     print("3. Update")
