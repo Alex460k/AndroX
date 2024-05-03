@@ -1,1 +1,1 @@
-python Project.py
+clear ; python Project.py
