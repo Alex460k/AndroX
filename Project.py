@@ -79,10 +79,10 @@ def main_menu():
     if choice == "4":
         start()
         while True:
-            user_input = input(":")
-            if user_input == "exit":
-                os.system("clear")
-                main_menu()
+                user_input = input(":")
+                if user_input == "exit":
+                    os.system("clear")
+                    main_menu()
     if choice == "5":
         exit()
 if __name__ == '__main__':
