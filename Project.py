@@ -15,7 +15,7 @@ def install():
 def icon():
     os.system("git clone https://github.com/yeyushengfan258/Win11-icon-theme")
     os.system("cd /data/data/com.termux/files/home/Project/Win11-icon-theme")
-    os.system("./install.sh")
+    os.system("bash /data/data/com.termux/files/home/Project/install.sh")
     os.system("cd")
     os.system("clear")
 
@@ -52,7 +52,7 @@ def main_menu():
     print("██║ █╗ ██║ ██║ ██╔██╗ ██║ ╚██║╚██║")
     print("██║███╗██║ ██║ ██║╚██╗██║  ██║ ██║")
     print("╚███╔███╔╝ ██║ ██║ ╚████║  ██║ ██║")
-    print("╚══╝╚══╝ ╚ ═╝╚ ═╝  ╚═══╝  ╚═╝ ╚═╝ ")                                                                                                 
+    print("╚══╝╚══╝ ╚ ═╝╚ ═╝  ╚═══╝   ╚═╝ ╚═╝")                                                                                                 
     print("==================================")
     print("1. Install")
     print("2. Uninstall")
