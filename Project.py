@@ -62,7 +62,6 @@ def main_menu():
     print("Enter your choice: ", end="")
     choice = input()
     if choice != "1" and choice != "2" and choice != "3" and choice != "4" and choice != "5":
-        os.system("clear")
         print("Incorrect or empty option!")
         main_menu()
     if choice == "1":
