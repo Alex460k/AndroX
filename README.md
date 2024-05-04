@@ -12,3 +12,11 @@ Scripts form other Developers:
 <Mobox Developers | Wine Explorer for TermWin11
 
 A big Thank You to these Developers for helping this Emulator work better and faster
+
+
+# Updates 
+- There will be new Updates every month
+- Some of them will include:
+  + Mangohud
+  + Controller connection support ( PS5/4 Xbox...)
+  + Better Optimized
