@@ -3,7 +3,7 @@
 
 [+] Developed by DeathGhost
 
-[+] Telegram Channel: (not yet available)
+[+] Telegram Channel: t.me/termwin11
 
 Scripts form other Developers:
 
