@@ -20,3 +20,6 @@ A big Thank You to these Developers for helping this Emulator work better and fa
   + Mangohud
   + Controller connection support ( PS5/4 Xbox...)
   + Better Optimized
+
+# Installation Tutorial
+- Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to downloads folder. Copy/Paste this in termux: pkg install dos2unix && dos2unix setup.sh && bash setup.sh
