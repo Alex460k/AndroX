@@ -17,6 +17,7 @@ A big Thank You to these Developers for helping this Emulator work better and fa
 - There will be new Updates every month
 
 # Installation Tutorial
+- The only way you'll be able to install it is to come to the group chat in Telegram and ask for script, then I will give you the steps to install the script
 - Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to "downloads" folder.
 - Copy/Paste this in termux:
 ```
@@ -48,6 +49,3 @@ A big Thank You to these Developers for helping this Emulator work better and fa
        ```
      - Then copy paste the commands in termux one after the other, from this link: https://kskroyal.com/disable-phantom-process-killer-in-android-12-13/
      - Then exit termux and enter again
-
-# Installation Tutorial
-- The only way you'll be able to install it is to come to the group chat in Telegram and ask for script, then I will give you the steps to install the script
