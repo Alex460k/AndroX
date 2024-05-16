@@ -46,5 +46,5 @@ A big Thank You to these Developers for helping this Emulator work better and fa
        ```
        adb connect your address/port
        ```
-     - Then copy paste the commands from this link: https://kskroyal.com/disable-phantom-process-killer-in-android-12-13/
+     - Then copy paste the commands in termux one after the other, from this link: https://kskroyal.com/disable-phantom-process-killer-in-android-12-13/
      - Then exit termux and enter again
