@@ -17,12 +17,13 @@ A big Thank You to these Developers for helping this Emulator work better and fa
 - There will be new Updates every month
 
 # Installation Tutorial
-- The only way you'll be able to install it is to come to the group chat in Telegram and ask for script, then I will give you the steps to install the script
-- Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to "downloads" folder.
-- Copy/Paste this in termux:
-```
- pkg install dos2unix && dos2unix setup.sh && bash setup.sh
-```
+- The only way you'll be able to install it, is to come to the group chat in Telegram and ask for script, then I will give you the steps to install the script
+- After getting the script follow these commands:
+    - Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to "downloads" folder.
+    - Copy/Paste this in termux:
+    ```
+     pkg install dos2unix && dos2unix setup.sh && bash setup.sh
+    ```
 
 # Signal 9 Error
  - First make sure that you disabled phantom process signal 9 in termux
