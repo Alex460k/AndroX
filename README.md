@@ -3,7 +3,7 @@
 
 [+] Developed by DeathGhost
 
-[+] Telegram Channel: t.me/
+[+] Telegram Channel: coming soon...
 
 Scripts form other Developers:
 
