@@ -7,9 +7,9 @@
 
 Scripts form other Developers:
 
-<LinuxDroidMaster | Start Command for TermWin11
+<LinuxDroidMaster | Start Command for AndroX
 
-<Mobox Developers | Wine Explorer for TermWin11
+<Mobox Developers | Wine Explorer for AndroX
 
 A big Thank You to these Developers for helping this Emulator work better and faster
 
