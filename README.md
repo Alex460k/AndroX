@@ -32,15 +32,17 @@
 
 - No additional configuration is needed; everything is pre-configured for optimal performance.
 ```
-# Running Windows Application
+# Running Windows Applications and Games
 ```
+![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)
+
 - To run a .exe file, simply navigate to the file location using the file explorer within AndroX.
 
 - Double-click the .exe file, and it will run just like on a Windows system.
 ```
-# Running Linux/Windows Application and Games
+# Running Linux Applications and Games
 ```
-![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)
+![VsCode on Windows10 Android](https://i.postimg.cc/tRmcRD2F/IMG-20250206-131023-619.jpg)
 
 - AndroX also supports running Linux/Windows applications/games.
 
