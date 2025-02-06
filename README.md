@@ -39,7 +39,7 @@
 # Running Linux Application
 ``` 
 
-[![Linux OS](https://i.postimg.cc/T2DVnS4K/d1323a91-3ef4-4fa4-b59b-ec6c3e30fd33.jpg)]
+[Linux OS](https://i.postimg.cc/T2DVnS4K/d1323a91-3ef4-4fa4-b59b-ec6c3e30fd33.jpg)
 ```
 
 - AndroX also supports running Linux applications.
