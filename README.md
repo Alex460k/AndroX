@@ -1,11 +1,11 @@
-# AndroX
+### AndroX
 [+] New Emulator that can run PC Games and Apps
 
 [+] Developed by Alex460k
 
 [+] Telegram Channel: coming soon...
 
-Scripts form other Developers:
+## Scripts form other Developers:
 
 <LinuxDroidMaster | Start Command for AndroX
 
@@ -13,10 +13,10 @@ Scripts form other Developers:
 
 A big Thank You to these Developers for helping this Emulator work better and faster
 
-# Updates 
+## Updates 
 - There will be new Updates every month
 
-# Installation Tutorial
+## Installation Tutorial
 - The only way you'll be able to install it, is to come to the group chat in Telegram and ask for script or download it from Github when the release will appear.
 - After getting the file, follow these commands:
     - Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to "downloads" folder.
@@ -25,7 +25,7 @@ A big Thank You to these Developers for helping this Emulator work better and fa
      pkg install dos2unix && dos2unix setup.sh && bash setup.sh
     ```
 
-# Signal 9 Error
+## Signal 9 Error
  - First make sure that you disabled phantom process signal 9 in termux
  - To disable folow these steps:
      - Go to settings - About phone - System Information
