@@ -11,7 +11,7 @@
 
 ## Experience the best of Windows 10 on your Android device with AndroX. This APK brings all the features of a real Windows 10 system, allowing you to run .exe files and Linux apps effortlessly. With wine, wine64, box64/86, mesa, virgl, turnip drivers, and proot, AndroX turns your Android into a versatile powerhouse.
 
-[![Windows10 on Android (Demo)](https://i.postimg.cc/vH15GKWY/IMG-20250206-120750-613.jpg)]
+![Windows10 on Android (Demo)](https://i.postimg.cc/vH15GKWY/IMG-20250206-120750-613.jpg)
 
 ## Updates 
 - There will be new Updates every month
