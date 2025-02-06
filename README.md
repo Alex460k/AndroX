@@ -1,7 +1,7 @@
 # AndroX
 [+] New Emulator that can run PC Games and Apps
 
-[+] Developed by DeathGhost
+[+] Developed by Alex460k
 
 [+] Telegram Channel: coming soon...
 
@@ -17,8 +17,8 @@ A big Thank You to these Developers for helping this Emulator work better and fa
 - There will be new Updates every month
 
 # Installation Tutorial
-- The only way you'll be able to install it, is to come to the group chat in Telegram and ask for script, then I will give you the steps to install the script
-- After getting the script follow these commands:
+- The only way you'll be able to install it, is to come to the group chat in Telegram and ask for script or download it from Github when the release will appear.
+- After getting the file, follow these commands:
     - Download it in termux and save it as: "setup.sh" then open termux and you will be automatically redirected to "downloads" folder.
     - Copy/Paste this in termux:
     ```
