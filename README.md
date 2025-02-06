@@ -39,7 +39,7 @@
 - Double-click the .exe file, and it will run just like on a Windows system.
 ```
 # Running Linux Application
-
+```
 [![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)]
 ```
 - AndroX also supports running Linux applications.
