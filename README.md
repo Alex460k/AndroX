@@ -24,7 +24,7 @@
 ```
 - The app will initialize and present you with a Windows 10-like user interface.
 ```
-# Set Up Environmen
+# Set Up Environment
 ```
 - AndroX will automatically set up wine, wine64, box64/86, mesa, virgl, and turnip drivers.
 ```
