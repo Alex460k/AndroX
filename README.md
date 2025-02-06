@@ -51,5 +51,5 @@
 - Personalize your AndroX environment by changing themes, wallpapers, and settings just like on a real Windows 10 PC.
 ```
 # Enjoy Seamless Integration:
-
+```
 - Explore the full potential of AndroX as it bridges the gap between Android and Windows, making your device more versatile and powerful than before.
