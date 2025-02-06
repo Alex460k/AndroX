@@ -47,7 +47,7 @@
 - Use the terminal within AndroX to navigate and execute commands and applications.
 ```
 # Customize Your Experience
-
+```
 - Personalize your AndroX environment by changing themes, wallpapers, and settings just like on a real Windows 10 PC.
 ```
 # Enjoy Seamless Integration:
