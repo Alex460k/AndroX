@@ -27,7 +27,7 @@
 # Set Up Environment
 ```
 - AndroX will automatically set up wine, wine64, box64/86, mesa, virgl, and turnip drivers.
-```
+
 - No additional configuration is needed; everything is pre-configured for optimal performance.
 ```
 # Running Windows Application
