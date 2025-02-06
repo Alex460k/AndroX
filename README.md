@@ -37,6 +37,9 @@
 - Double-click the .exe file, and it will run just like on a Windows system.
 ```
 # Running Linux Application
+<p align="center">
+     <img src="https://i.postimg.cc/T2DVnS4K/d1323a91-3ef4-4fa4-b59b-ec6c3e30fd33.jpg" style="width: 30%;" align="left"; />
+</p>
 ```
 - AndroX also supports running Linux applications.
 
