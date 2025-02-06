@@ -41,7 +41,7 @@
 # Running Linux Application
 
 [![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)]
-
+```
 - AndroX also supports running Linux applications.
 
 - Use the terminal within AndroX to navigate and execute Linux commands and applications.
