@@ -17,7 +17,7 @@
 ## Installation Tutorial
 ```
 # Download & Install
-
+```
 - Get the AndroX APK from the official website.
 ```
 # Launch Androx
