@@ -1,7 +1,7 @@
 # AndroX
 <p align="center">
    <img src="">
-<p>
+</p>
 [+] New Emulator that can run PC Games and Apps
 
 [+] Developed by Alex460k
