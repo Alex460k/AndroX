@@ -1,6 +1,6 @@
 # AndroX
 <p align="center">
-   <img src="https://i.postimg.cc/6Q89sc3B/th-1.jpg">
+   <img src="https://i.postimg.cc/6Q89sc3B/th-1.jpg" style="width": 30%>
 
 </p>
 [+] New Emulator that can run PC Games and Apps
