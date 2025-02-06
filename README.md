@@ -38,13 +38,13 @@
 
 - Double-click the .exe file, and it will run just like on a Windows system.
 ```
-# Running Linux Application
+# Running Linux/Windows Application and Games
 ```
-[![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)]
+![GtaV on Windows10 Android](https://i.postimg.cc/gkf8jKDv/IMG-20250206-120752-986.jpg)
 
-- AndroX also supports running Linux applications.
+- AndroX also supports running Linux/Windows applications/games.
 
-- Use the terminal within AndroX to navigate and execute Linux commands and applications.
+- Use the terminal within AndroX to navigate and execute commands and applications.
 ```
 # Customize Your Experience
 ```
@@ -52,4 +52,4 @@
 ```
 # Enjoy Seamless Integration:
 ```
-- Explore the full potential of AndroX as it bridges the gap between Android and Windows, making your device more versatile and powerful than ever.
+- Explore the full potential of AndroX as it bridges the gap between Android and Windows, making your device more versatile and powerful than before.
