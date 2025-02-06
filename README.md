@@ -48,6 +48,8 @@
 ```
 # Customize Your Experience
 ```
+![Windows11 theme](https://i.postimg.cc/2ShvZBcg/IMG-20250206-120758-600.jpg)
+
 - Personalize your AndroX environment by changing themes, wallpapers, and settings just like on a real Windows 10 PC.
 ```
 # Enjoy Seamless Integration:
