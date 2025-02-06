@@ -33,13 +33,13 @@
 # Running Windows Application
 ```
 - To run a .exe file, simply navigate to the file location using the file explorer within AndroX.
-```
+
 - Double-click the .exe file, and it will run just like on a Windows system.
 ```
 # Running Linux Application
 ```
 - AndroX also supports running Linux applications.
-```
+
 - Use the terminal within AndroX to navigate and execute Linux commands and applications.
 ```
 # Customize Your Experience
