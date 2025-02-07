@@ -3,7 +3,7 @@
    <img src="https://i.postimg.cc/cLq7t9pb/e26978f3-0806-46ee-b9eb-bd536f2451b3.jpg" style="width: 60%;" align="left"; />
 </p>
 
-[+] New Emulator that can run PC Games and Apps
+[+] New App that can run PC Games and Apps
 
 [+] Developed by Alex460k
 
