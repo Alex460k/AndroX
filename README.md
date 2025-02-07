@@ -9,7 +9,7 @@
 
 [+] Telegram Channel: coming soon...
 
-## Experience the best of Windows 10 and 11 on your Android device with AndroX. This APK brings all the features of a real Windows 10/11 system, allowing you to run .exe files and Linux apps effortlessly. With Wine, Wine64, Box64/86, Mesa, Virgl, Turnip Drivers, and Proot, AndroX turns your Android into a versatile powerhouse.
+## Experience the best of Windows 10 on your Android device with AndroX. This APK brings all the features of a real Windows 10 system, allowing you to run .exe files and Linux apps effortlessly. With Wine, Wine64, Box64/86, Mesa, Virgl, Turnip Drivers, and Proot, AndroX turns your Android into a versatile powerhouse.
 
 ![Windows10 on Android (Demo)](https://i.postimg.cc/vH15GKWY/IMG-20250206-120750-613.jpg)
 
