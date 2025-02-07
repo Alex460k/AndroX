@@ -42,7 +42,7 @@
 ```
 # Running Linux Applications and Games
 ```
-![VsCode on Windows10 Android](https://i.postimg.cc/tRmcRD2F/IMG-20250206-131023-619.jpg)
+![VsCode on Windows10 Android](https://i.postimg.cc/SRyzq43k/IMG-20250207-145822-037.jpg)
 
 - AndroX also supports running Linux/Windows applications/games.
 
