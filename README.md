@@ -1,6 +1,6 @@
 # AndroX
 <p align="center">
-   <img src="[https://i.postimg.cc/cLq7t9pb/e26978f3-0806-46ee-b9eb-bd536f2451b3.jpg](https://i.postimg.cc/vDmL721w/windows12.png](https://i.postimg.cc/KcPq2dxj/windows12.png)" style="width: 60%;" align="left"; />
+   <img src="https://i.postimg.cc/cLq7t9pb/e26978f3-0806-46ee-b9eb-bd536f2451b3.jpg](https://i.postimg.cc/vDmL721w/windows12.png](https://i.postimg.cc/KcPq2dxj/windows12.png" style="width: 60%;" align="left"; />
 </p>
 
 [+] New App that can run PC Games and Apps
