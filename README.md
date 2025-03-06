@@ -9,6 +9,8 @@
 
 [+] Discord Server: https://discord.gg/Byg6HztG
 
+[+] Telegram Channel: https://t.me/Win11Android
+
 ## With a fully-integrated UI, this app offers a streamlined experience, no debugging required. Everything is optimized for maximum speed and performance, giving your processor the freedom to shine. 🏎️💨
 
 ![Windows10 on Android (Demo)](https://i.postimg.cc/vH15GKWY/IMG-20250206-120750-613.jpg)
