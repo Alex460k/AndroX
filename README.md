@@ -3,32 +3,32 @@
    <img src="https://i.postimg.cc/vDmL721w/windows12.png" align="left"; />
 </p>
 
-[+] New App that can run PC Games and Apps
+[+] New App that can run PC Games & Apps
 
 [+] Developed by Alex460k
 
-[+] Telegram Channel: coming soon...
+[+] Discord Server: https://discord.gg/Byg6HztG
 
-## Experience the best of Windows 10 on your Android device with AndroX. This APK brings all the features of a real Windows 10 system, allowing you to run .exe files and Linux apps effortlessly. With Wine, Wine64, Box64/86, Mesa, Virgl, Turnip Drivers, and Proot, AndroX turns your Android into a versatile powerhouse.
+## With a fully-integrated UI, this app offers a streamlined experience, no debugging required. Everything is optimized for maximum speed and performance, giving your processor the freedom to shine. 🏎️💨
 
 ![Windows10 on Android (Demo)](https://i.postimg.cc/vH15GKWY/IMG-20250206-120750-613.jpg)
 
 ## Updates 
-- There will be new Updates every month
+- There will be new Updates and Fixes almost every month to ensure everything works correctly
 
 ## Installation Tutorial
 ```
 # Download & Install
 ```
-- Get the AndroX APK from the official website.
+- Get the AndroX APK from the Telegram Channel.
 ```
 # Launch Androx
 ```
-- The app will initialize and present you with a Windows 10-like user interface.
+- The app will initialize and set up necessary files in order to work.
 ```
 # Set Up Environment
 ```
-- AndroX will automatically set up Wine, Wine64, Box64/86, Mesa, Virgl, and Turnip Drivers.
+- AndroX will automatically set up Configurations and necessary Drivers.
 
 - No additional configuration is needed; everything is pre-configured for optimal performance.
 ```
@@ -38,7 +38,7 @@
 
 - To run a .exe file, simply navigate to the file location using the file explorer within AndroX.
 
-- Double-click the .exe file, and it will run just like on a Windows system.
+- Double-click or hold with touch for few seconds and a "Open" command should appear, then the .exe file will run just like on a Windows system.
 ```
 # Running Linux Applications and Games
 ```
@@ -52,7 +52,7 @@
 ```
 ![Windows11 theme](https://i.postimg.cc/2ShvZBcg/IMG-20250206-120758-600.jpg)
 
-- Personalize your AndroX environment by changing themes, wallpapers, and settings just like on a real Windows 10 PC.
+- Personalize your AndroX environment by changing themes, wallpapers, and settings just like on a real Windows 11 PC.
 ```
 # Enjoy Seamless Integration:
 ```
