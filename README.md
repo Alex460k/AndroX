@@ -40,7 +40,7 @@
 
 - To run a .exe file, simply navigate to the file location using the file explorer within AndroX.
 
-- Double-click or hold with touch for few seconds and a "Open" command should appear, then the .exe file will run just like on a Windows system.
+- Double-tap or hold with touch for few seconds and a "Open" command should appear, then the .exe file will run just like on a Windows system.
 ```
 # Running Linux Applications and Games
 ```
